@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: 253490789748.dkr.ecr.us-east-1.amazonaws.com/cloudbox-html:latest
+    ports:
+      - "80:80"
+    restart: always
